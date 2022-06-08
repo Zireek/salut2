@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salut2.Menu">
+   <children>
+      <Label fx:id="menu" layoutX="127.0" layoutY="64.0" text="Menu">
+         <font>
+            <Font size="40.0" />
+         </font></Label>
+      <Button fx:id="bAfegir" layoutX="115.0" layoutY="175.0" mnemonicParsing="false" onAction="#switchAfegir" prefHeight="25.0" prefWidth="120.0" text="Afegir dades" />
+      <Button fx:id="bVeure" layoutX="115.0" layoutY="225.0" mnemonicParsing="false" onAction="#switchEstadisticas" text="Veure estadístiques" />
+   </children>
+</AnchorPane>
